@@ -1,38 +1,61 @@
-.App {
-  text-align: center;
-}
+header h2 {
+  color: #f1f382; }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+body {
+  font-family: "Arial", sans-serif; }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+h1, h2, h3 {
+  font-family: "Georigia", serif; }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+h5 {
+  font-family: "Georigia", serif;
+  color: #203297; }
 
-.App-link {
-  color: #61dafb;
-}
+h2 {
+  color: #203297; }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+header h2 {
+  color: #0a223d; }
+
+footer {
+  background-image: linear-gradient(#f3f3f3, white);
+  padding: 5px 0; }
+
+.jumbotron {
+  padding: 10px;
+  background-image: linear-gradient(to right, #bb5613, #918812, #d6c910);
+  color: #082e80;
+  margin: 0; }
+
+.row-content {
+  padding: 50px 0;
+  border-bottom: 1px ridge;
+  min-height: 200px; }
+
+.navbar {
+  background-color: #08ac7a;
+  color: #c9da35; }
+
+.tab-content {
+  border: 1px solid #DDD;
+  border-top: none;
+  padding: 10px; }
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5); }
+
+.carousel {
+  border: solid #efeef3; }
+
+#carouselButton {
+  position: absolute;
+  right: 0;
+  bottom: 0; }
+
+#reserveModal .modal-header {
+  background-color: #6210a5;
+  color: white; }
+
+#loginModal .modal-header {
+  background-color: #0a2d44;
+  color: white; }

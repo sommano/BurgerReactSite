@@ -1,0 +1,42 @@
+body {
+  font-family: "Times New Roman";
+}
+
+h1, h2, h3, .card-body>h5 {
+font-family: "Times New Roman";
+}
+
+h2 {
+  color: #3046C5;
+}
+
+.card-img-overlay h5 {
+  color: rgb(240, 22, 22);
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.row-content {
+  padding: 50px 0;
+  border-bottom: 1px ridge;
+  min-height: 200px;
+}
+
+.site-footer {
+  background-image: linear-gradient(#CEC8FF, white);
+  padding: 20px 0;
+}
+
+.jumbotron {
+  margin: 0;
+  padding: 10px;
+  background-image: linear-gradient(to right, rgb(122, 97, 235), rgb(121, 235, 46), rgb(223, 210, 35));
+  color: rgb(22, 158, 9);
+}
+
+.jumbotron h2 {
+  color: rgb(138, 14, 90);
+}
+
+.navbar-dark {
+  background-color: rgb(70, 10, 85);
+}
